@@ -22,7 +22,7 @@ app.use(morgan('tiny'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.use('/test', routes.test)
+app.use('/characters', routes.characters)
 
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`)

@@ -1,3 +1,3 @@
-const test = require('./test')
+const characters = require('./characters')
 
-module.exports = { test }
+module.exports = { characters }
